@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-top: 40px;
+    font-size: 2.5em;
+    color: #ffd700;
+    text-shadow: 1px 1px 4px #000;
+  }
+  
+  #date-input {
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #fetch-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #fetch-btn:hover {
+    background-color: #e6c200;
+  }
+  
+  #content {
+    margin-top: 30px;
+    max-width: 900px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+  }
+  
+  #media-container {
+    margin-top: 20px;
+  }
+  
+  #apod-img, #apod-video {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.2);
+  }
+  
+  #title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #00d4ff;
+  }
+  
+  #description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  #error {
+    margin-top: 20px;
+    color: #ff6b6b;
+    font-weight: bold;
+  }
+  
